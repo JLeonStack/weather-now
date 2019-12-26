@@ -19,6 +19,14 @@
   font-family: "Lato", sans-serif;
 }
 
+@media (max-width: 568px) {
+  .temperature {
+    font-size: 60px;
+  }
+  .city {
+    font-size: 16px;
+  }
+}
 .form-control {
   font-weight: 300;
   text-align: center;

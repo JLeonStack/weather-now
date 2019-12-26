@@ -8,7 +8,7 @@
           <div class="card border-0 background">
             <div class="card-body shadow ">
               <div class="row justify-content-end">
-                <div class="col-3 p-0 m-0">
+                <div class="col-4 col-md-2 p-0 m-0">
                   <h1 class="temperature m-0 p-0" *ngIf="!animacion">-</h1>
                   <app-rainy *ngIf="animacion == 'Drizzle'"></app-rainy>
                   <app-cloudy
@@ -82,7 +82,7 @@
                     placeholder="Country Code"
                     #countryCode
                   />
-                  <label class="note"
+                  <label class="note mt-3"
                     >Note: You don't know what the country code is?
                     <a href="https://countrycode.org/" target="_blank"
                       >Click here</a
