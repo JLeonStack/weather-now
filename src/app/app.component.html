@@ -19,7 +19,7 @@
                   ></app-cloudy>
                   <app-sunny *ngIf="animacion == 'Clear'"></app-sunny>
                   <app-electric-storms
-                    *ngIf="animacion == 'Rain'"
+                    *ngIf="animacion == 'Rain' || animacion == 'Thunderstorm'"
                   ></app-electric-storms>
                   <app-sunny-rainy
                     *ngIf="
